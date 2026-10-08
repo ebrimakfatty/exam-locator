@@ -1,0 +1,1252 @@
+/* ==================================================
+   EXAM CLASSROOM LOCATOR
+   CAMPUS MAP
+================================================== */
+
+
+/* ==================================================
+   GLOBAL
+================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+
+    background: #F4F9F8;
+
+    color: #1B2B2C;
+
+    min-height: 100vh;
+}
+
+
+/* ==================================================
+   HEADER
+================================================== */
+
+.map-header {
+
+    background: #013A40;
+
+    color: white;
+
+    padding: 18px 30px;
+
+    box-shadow:
+        0 3px 12px
+        rgba(0,0,0,0.12);
+}
+
+.header-content {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 20px;
+}
+
+.college-name {
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.5px;
+}
+
+.college-subtitle {
+
+    font-size: 14px;
+
+    color: #C7DEDB;
+
+    margin-top: 3px;
+}
+
+.back-home {
+
+    text-decoration: none;
+
+    color: white;
+
+    background: #028090;
+
+    padding: 10px 16px;
+
+    border-radius: 8px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    transition: 0.2s ease;
+}
+
+.back-home:hover {
+
+    background: #026B78;
+}
+
+
+/* ==================================================
+   MAIN CONTAINER
+================================================== */
+
+.map-container {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 55px 20px;
+}
+
+
+/* ==================================================
+   INTRODUCTION
+================================================== */
+
+.page-introduction {
+
+    text-align: center;
+
+    margin-bottom: 35px;
+}
+
+.section-label {
+
+    display: inline-block;
+
+    color: #028090;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+
+    margin-bottom: 8px;
+}
+
+.page-introduction h1 {
+
+    margin: 0 0 10px;
+
+    color: #013A40;
+
+    font-size: 38px;
+}
+
+.page-introduction p {
+
+    margin: 0 auto;
+
+    max-width: 650px;
+
+    color: #5C6F70;
+
+    line-height: 1.6;
+}
+
+
+/* ==================================================
+   DESTINATION CARD
+================================================== */
+
+.destination-card {
+
+    display: flex;
+
+    gap: 20px;
+
+    background: white;
+
+    border-radius: 14px;
+
+    padding: 25px;
+
+    margin-bottom: 30px;
+
+    border: 1px solid #E0EEEE;
+
+    box-shadow:
+        0 4px 16px
+        rgba(0,0,0,0.07);
+}
+
+.destination-icon {
+
+    width: 55px;
+
+    height: 55px;
+
+    min-width: 55px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #E8F7EE;
+
+    border-radius: 12px;
+
+    font-size: 27px;
+}
+
+.destination-content {
+
+    flex: 1;
+}
+
+.destination-label {
+
+    margin: 0 0 5px;
+
+    color: #028090;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 1.2px;
+}
+
+.destination-content h2 {
+
+    margin: 0 0 20px;
+
+    color: #013A40;
+
+    font-size: 25px;
+}
+
+.destination-details {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 15px;
+}
+
+.detail-item {
+
+    background: #F4F9F8;
+
+    padding: 14px;
+
+    border-radius: 8px;
+
+    border: 1px solid #E0EEEE;
+}
+
+.detail-label {
+
+    display: block;
+
+    color: #5C6F70;
+
+    font-size: 12px;
+
+    margin-bottom: 5px;
+
+    font-weight: 600;
+}
+
+.detail-value {
+
+    display: block;
+
+    color: #013A40;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    word-break: break-word;
+}
+
+
+/* ==================================================
+   MAP SECTION
+================================================== */
+
+.map-section {
+
+    margin-bottom: 30px;
+}
+
+.map-heading {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-end;
+
+    margin-bottom: 15px;
+}
+
+.map-heading h2 {
+
+    margin: 0;
+
+    color: #013A40;
+
+    font-size: 26px;
+}
+
+.map-status {
+
+    background: #E8F4FA;
+
+    color: #075985;
+
+    padding: 7px 12px;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+
+    font-weight: 600;
+}
+
+
+/* ==================================================
+   CAMPUS MAP
+================================================== */
+
+.campus-map {
+
+    position: relative;
+
+    width: 100%;
+
+    height: 620px;
+
+    overflow: hidden;
+
+    border-radius: 18px;
+
+    border: 1px solid #C7DEDB;
+
+    background: #DDEBE5;
+
+    box-shadow:
+        0 6px 22px
+        rgba(0,0,0,0.10);
+}
+
+
+/* ==================================================
+   MAP BACKGROUND
+================================================== */
+
+.map-background {
+
+    position: absolute;
+
+    inset: 0;
+
+    background-color: #E6F0EB;
+
+    background-image:
+
+        linear-gradient(
+            rgba(1,58,64,0.07) 1px,
+            transparent 1px
+        ),
+
+        linear-gradient(
+            90deg,
+            rgba(1,58,64,0.07) 1px,
+            transparent 1px
+        );
+
+    background-size: 40px 40px;
+}
+
+
+/* ==================================================
+   ROADS
+================================================== */
+
+.road {
+
+    position: absolute;
+
+    background: #C8D6D1;
+
+    border-top: 2px solid #B3C5BF;
+
+    border-bottom: 2px solid #B3C5BF;
+
+    z-index: 1;
+}
+
+.road-horizontal {
+
+    height: 75px;
+
+    width: 120%;
+
+    left: -10%;
+}
+
+.road-vertical {
+
+    width: 70px;
+
+    height: 120%;
+
+    top: -10%;
+
+    border-left: 2px solid #B3C5BF;
+
+    border-right: 2px solid #B3C5BF;
+
+    border-top: none;
+
+    border-bottom: none;
+}
+
+.road-one {
+
+    top: 47%;
+
+    transform: rotate(-7deg);
+}
+
+.road-two {
+
+    top: 75%;
+
+    transform: rotate(5deg);
+}
+
+.road-three {
+
+    left: 42%;
+
+    transform: rotate(10deg);
+}
+
+.road-four {
+
+    right: 17%;
+
+    transform: rotate(-7deg);
+}
+
+
+/* ==================================================
+   WALKWAYS
+================================================== */
+
+.walkway {
+
+    position: absolute;
+
+    height: 12px;
+
+    background: #F5F0D8;
+
+    border-radius: 10px;
+
+    z-index: 2;
+}
+
+.walkway-one {
+
+    width: 35%;
+
+    top: 30%;
+
+    left: 25%;
+
+    transform: rotate(25deg);
+}
+
+.walkway-two {
+
+    width: 35%;
+
+    top: 55%;
+
+    left: 42%;
+
+    transform: rotate(-15deg);
+}
+
+.walkway-three {
+
+    width: 30%;
+
+    top: 78%;
+
+    left: 15%;
+
+    transform: rotate(8deg);
+}
+
+
+/* ==================================================
+   BUILDINGS
+================================================== */
+
+.campus-building {
+
+    position: absolute;
+
+    width: 150px;
+
+    min-height: 105px;
+
+    background: white;
+
+    border: 3px solid #028090;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 12px;
+
+    z-index: 4;
+
+    box-shadow:
+        0 4px 12px
+        rgba(0,0,0,0.14);
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.campus-building:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 7px 18px
+        rgba(0,0,0,0.18);
+}
+
+.building-icon {
+
+    font-size: 30px;
+
+    margin-bottom: 5px;
+}
+
+.building-name {
+
+    color: #013A40;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    line-height: 1.3;
+}
+
+
+/* ==================================================
+   BUILDING POSITIONS
+================================================== */
+
+.building-main {
+
+    top: 15%;
+    left: 7%;
+}
+
+.building-maths {
+
+    top: 15%;
+    left: 40%;
+}
+
+.building-physics {
+
+    top: 15%;
+    right: 7%;
+}
+
+.building-chem {
+
+    top: 47%;
+    left: 7%;
+}
+
+.building-cs {
+
+    top: 47%;
+    right: 7%;
+}
+
+.building-geology {
+
+    bottom: 7%;
+    left: 20%;
+}
+
+.building-amphi {
+
+    bottom: 7%;
+    right: 20%;
+}
+
+/* ==================================================
+   SELECTED BUILDING
+================================================== */
+
+.campus-building.selected-building {
+
+    border-color: #013A40;
+
+    box-shadow:
+        0 0 0 5px rgba(1,58,64,0.18),
+        0 8px 25px
+        rgba(1,58,64,0.25);
+
+    transform: translateY(-5px);
+
+    z-index: 10;
+}
+
+.campus-building.selected-building::after {
+
+    content:
+        "YOUR EXAM BUILDING";
+
+    position: absolute;
+
+    top: -17px;
+
+    left: 50%;
+
+    transform:
+        translateX(-50%);
+
+    background: #013A40;
+
+    color: white;
+
+    padding: 5px 9px;
+
+    border-radius: 5px;
+
+    font-size: 9px;
+
+    font-weight: 700;
+
+    white-space: nowrap;
+}
+
+
+/* ==================================================
+   ENTRANCE
+================================================== */
+
+.campus-entrance {
+
+    position: absolute;
+
+    bottom: 5%;
+
+    left: 7%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 4px;
+
+    background: white;
+
+    padding: 8px 12px;
+
+    border-radius: 8px;
+
+    box-shadow:
+        0 3px 10px
+        rgba(0,0,0,0.15);
+
+    z-index: 6;
+
+    color: #013A40;
+
+    font-size: 12px;
+
+    font-weight: 700;
+}
+
+.entrance-icon {
+
+    font-size: 25px;
+}
+
+
+/* ==================================================
+   DESTINATION MARKER
+================================================== */
+
+.destination-marker {
+
+    position: absolute;
+
+    top: 42%;
+
+    right: 35%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    z-index: 15;
+
+    pointer-events: none;
+
+    transition:
+        top 0.4s ease,
+        left 0.4s ease,
+        right 0.4s ease;
+}
+
+.destination-pin {
+
+    font-size: 48px;
+
+    filter:
+        drop-shadow(
+            0 3px 4px
+            rgba(0,0,0,0.25)
+        );
+
+    animation:
+        markerBounce 1.5s infinite;
+}
+
+.destination-label {
+
+    background: #013A40;
+
+    color: white;
+
+    padding: 8px 12px;
+
+    border-radius: 7px;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    white-space: nowrap;
+
+    box-shadow:
+        0 3px 10px
+        rgba(0,0,0,0.20);
+}
+
+@keyframes markerBounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-7px);
+    }
+}
+
+
+/* ==================================================
+   MAP CENTER MESSAGE
+================================================== */
+
+.map-center-message {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform:
+        translate(-50%, -50%);
+
+    width: 300px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    background:
+        rgba(255,255,255,0.92);
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 4px 18px
+        rgba(0,0,0,0.12);
+
+    z-index: 7;
+}
+
+.map-message-icon {
+
+    font-size: 32px;
+
+    margin-bottom: 5px;
+}
+
+.map-center-message h3 {
+
+    margin: 0 0 7px;
+
+    color: #013A40;
+}
+
+.map-center-message p {
+
+    margin: 0;
+
+    color: #5C6F70;
+
+    line-height: 1.5;
+}
+
+
+/* ==================================================
+   MAP LEGEND
+================================================== */
+
+.map-legend {
+
+    position: absolute;
+
+    bottom: 18px;
+
+    right: 18px;
+
+    background: white;
+
+    padding: 13px 16px;
+
+    border-radius: 9px;
+
+    box-shadow:
+        0 3px 12px
+        rgba(0,0,0,0.15);
+
+    z-index: 20;
+}
+
+.legend-title {
+
+    color: #013A40;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    margin-bottom: 8px;
+}
+
+.legend-item {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    color: #465A5B;
+
+    font-size: 12px;
+
+    margin: 6px 0;
+}
+
+.legend-symbol {
+
+    width: 12px;
+
+    height: 12px;
+
+    display: inline-block;
+
+    border-radius: 3px;
+}
+
+.building-symbol {
+
+    background: #028090;
+}
+
+.destination-symbol {
+
+    background: #013A40;
+
+    border-radius: 50%;
+}
+
+.entrance-symbol {
+
+    background: #A66A00;
+}
+
+
+/* ==================================================
+   INSTRUCTIONS
+================================================== */
+
+.location-instructions {
+
+    display: flex;
+
+    gap: 20px;
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 14px;
+
+    border: 1px solid #E0EEEE;
+
+    box-shadow:
+        0 4px 16px
+        rgba(0,0,0,0.06);
+}
+
+.instruction-icon {
+
+    width: 50px;
+
+    height: 50px;
+
+    min-width: 50px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #E8F4FA;
+
+    border-radius: 10px;
+
+    font-size: 25px;
+}
+
+.location-instructions h2 {
+
+    margin: 0 0 12px;
+
+    color: #013A40;
+
+    font-size: 21px;
+}
+
+.location-instructions ol {
+
+    margin: 0;
+
+    padding-left: 22px;
+
+    color: #465A5B;
+
+    line-height: 1.8;
+}
+
+
+/* ==================================================
+   ERROR
+================================================== */
+
+.map-error {
+
+    background: #FCEBEE;
+
+    border-left: 5px solid #B00020;
+
+    color: #B00020;
+
+    padding: 14px 16px;
+
+    border-radius: 8px;
+
+    margin-top: 20px;
+}
+
+
+/* ==================================================
+   FOOTER
+================================================== */
+
+.map-footer {
+
+    text-align: center;
+
+    background: #013A40;
+
+    color: #C7DEDB;
+
+    padding: 25px 20px;
+}
+
+.map-footer p {
+
+    margin: 4px 0;
+
+    font-size: 13px;
+}
+
+
+/* ==================================================
+   TABLET
+================================================== */
+
+@media (max-width: 900px) {
+
+    .destination-details {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+    .campus-map {
+
+        height: 550px;
+    }
+
+    .campus-building {
+
+        width: 125px;
+
+        min-height: 90px;
+    }
+
+}
+
+
+/* ==================================================
+   MOBILE
+================================================== */
+
+@media (max-width: 600px) {
+
+    .map-header {
+
+        padding: 15px 18px;
+    }
+
+    .header-content {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+    .map-container {
+
+        padding: 35px 15px;
+    }
+
+    .page-introduction h1 {
+
+        font-size: 29px;
+    }
+
+    .destination-card {
+
+        flex-direction: column;
+    }
+
+    .destination-details {
+
+        grid-template-columns: 1fr;
+    }
+
+    .map-heading {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 10px;
+    }
+
+    .campus-map {
+
+        height: 600px;
+    }
+
+    .campus-building {
+
+        width: 105px;
+
+        min-height: 80px;
+
+        padding: 8px;
+    }
+
+    .building-icon {
+
+        font-size: 23px;
+    }
+
+    .building-name {
+
+        font-size: 10px;
+    }
+
+    .building-main {
+
+        left: 5%;
+    }
+
+    .building-science {
+
+        right: 5%;
+    }
+
+    .building-library {
+
+        left: 5%;
+    }
+
+    .building-arts {
+
+        right: 5%;
+    }
+
+    .building-admin {
+
+        left: 38%;
+    }
+
+    .map-center-message {
+
+        width: calc(100% - 40px);
+
+        padding: 15px;
+    }
+
+    .map-legend {
+
+        left: 12px;
+
+        right: auto;
+
+        bottom: 12px;
+    }
+
+    .location-instructions {
+
+        flex-direction: column;
+    }
+
+}
+
+/* ==================================================
+   REAL MAP (Leaflet / OpenStreetMap)
+================================================== */
+
+.campus-map {
+    height: 560px;
+    padding: 0;
+}
+
+#leaflet-map {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    z-index: 1;
+}
+
+.map-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+    margin-top: 12px;
+}
+
+.map-google-link {
+    background: #013A40;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.map-note {
+    font-size: 13px;
+    color: #5b6b6e;
+}
+
+.bld-label {
+    background: #fff;
+    border: 2px solid #028090;
+    border-radius: 8px;
+    padding: 3px 7px;
+    font: 600 11px/1.2 system-ui, sans-serif;
+    color: #013A40;
+    white-space: nowrap;
+    box-shadow: 0 2px 6px rgba(0,0,0,.2);
+}
+
+.bld-label.selected {
+    background: #013A40;
+    color: #fff;
+    border-color: #013A40;
+    font-size: 12px;
+    padding: 5px 9px;
+}
+
+@media (max-width: 600px) {
+    .campus-map { height: 440px; }
+}

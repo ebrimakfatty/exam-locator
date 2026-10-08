@@ -1,0 +1,265 @@
+program,semester,exam_date,start_time,end_time,department,paper_code,paper_title
+M.A.,3,2026-04-16,15:00:00,17:00:00,ECONOMICS,ECO -601,International Economics and Finance-I
+M.A.,3,2026-04-16,15:00:00,17:00:00,ENGLISH,ENG -601,The Teaching of English Language
+M.A.,3,2026-04-16,15:00:00,17:00:00,MARATHI,MRT-601,साहित्यप्रकाराचा अभ्यास - कथा आणि   कादंबरी : मराठी लघुकथा
+M.A.,3,2026-04-16,15:00:00,17:00:00,PSYCHOLOGY,PSY -601,Personality
+M.A.,3,2026-04-17,15:00:00,17:00:00,ECONOMICS,ECO -602,Growth & Development-I
+M.A.,3,2026-04-17,15:00:00,17:00:00,ENGLISH,ENG -602,Cultural Studies
+M.A.,3,2026-04-17,15:00:00,17:00:00,MARATHI,MRT-602,"भारतीय साहित्यविचार  - साहित्याची  प्रयोजने, साहित्याचे चेस्वरूप - वक्रोक्ती, रीती, औचित्य , रस, ध्वनी"
+M.A.,3,2026-04-17,15:00:00,17:00:00,PSYCHOLOGY,PSY -602,Counseling Theory
+M.A.,3,2026-04-18,15:00:00,17:00:00,ECONOMICS,ECO -603,Modern Banking
+M.A.,3,2026-04-18,15:00:00,17:00:00,ENGLISH,ENG -603,Comparative Literary Studies
+M.A.,3,2026-04-18,15:00:00,17:00:00,MARATHI,MRT-603,विशेष लेखकाचा अभ्यास - मध्ययुगीन : संत नामदेव
+M.A.,3,2026-04-18,15:00:00,17:00:00,PSYCHOLOGY,PSY -603,Psychodiagnostics
+M.A.,3,2026-04-18,15:00:00,17:00:00,PSYCHOLOGY,PSY -604,Organization Behavior
+M.A.,3,2026-04-20,15:00:00,17:00:00,ECONOMICS,ECO -604,World Economy
+M.A.,3,2026-04-20,15:00:00,17:00:00,ECONOMICS,ECO -605,Econometrics
+M.A.,3,2026-04-20,15:00:00,17:00:00,ENGLISH,ENG -604,Women’s Literature in English
+M.A.,3,2026-04-20,15:00:00,17:00:00,ENGLISH,ENG -605,Postcolonial English Literatures
+M.A.,3,2026-04-20,15:00:00,17:00:00,MARATHI,MRT-604,"नेमलेल्या साहित्यकृतींचा  अभ्यास : चरित्र आणि आत्मचरित्र  - लो. टिळक  - सदानंद मोरे, स्मृतिचित्रे - लक्ष्मीबाई टिळक"
+M.A.,3,2026-04-20,15:00:00,17:00:00,MARATHI,MRT-605,"समकालीन साहित्य  :  अॅट एनी कॉस्ट (अभिराम भडकमकर), ब्रॅंड फॅक्टरी (मनोहर सोनवणे )"
+M.A.,2,2026-04-16,11:00:00,13:00:00,ECONOMICS,ECO -551,Micro Economics-II
+M.A.,2,2026-04-16,11:00:00,13:00:00,ENGLISH,ENG -551,English Literature from Romantic Age to Modern Age
+M.A.,2,2026-04-16,11:00:00,13:00:00,MARATHI,MRT-551,Bhashantar Mimansa
+M.A.,2,2026-04-16,11:00:00,13:00:00,PSYCHOLOGY,PSY -551,Qualitative Research Methods
+M.A.,2,2026-04-17,11:00:00,13:00:00,ECONOMICS,ECO -552,Public Economics-II
+M.A.,2,2026-04-17,11:00:00,13:00:00,ENGLISH,ENG -552,Modern Criticism and Theory
+M.A.,2,2026-04-17,11:00:00,13:00:00,MARATHI,MRT-552,"Arvachin Marathi Sahityachi Sanskrutik Parshvabhumi; Dhar Aani Kath, Sahityanche Mandand"
+M.A.,2,2026-04-17,11:00:00,13:00:00,PSYCHOLOGY,PSY -552,Statistical Methods
+M.A.,2,2026-04-18,11:00:00,13:00:00,ECONOMICS,ECO -553,Macro Economics-II
+M.A.,2,2026-04-18,11:00:00,13:00:00,ENGLISH,ENG -553,Study of Modern English Language
+M.A.,2,2026-04-18,11:00:00,13:00:00,MARATHI,MRT-553,Bhashavidnyan – Samajik
+M.A.,2,2026-04-18,11:00:00,13:00:00,PSYCHOLOGY,PSY -553,Psychopathology II
+M.A.,2,2026-04-20,11:00:00,13:00:00,ECONOMICS,ECO -554,Mathematical Economics
+M.A.,2,2026-04-20,11:00:00,13:00:00,ECONOMICS,ECO -555,Agricultural Economics
+M.A.,2,2026-04-20,11:00:00,13:00:00,ENGLISH,ENG -554,Refugee Literature
+M.A.,2,2026-04-20,11:00:00,13:00:00,ENGLISH,ENG -555,Indian Literatures in English Translation
+M.A.,2,2026-04-20,11:00:00,13:00:00,MARATHI,MRT-554,Loksahitya
+M.A.,2,2026-04-20,11:00:00,13:00:00,MARATHI,MRT-555,"Balsahitya – Rajiv Tanbe, Bharat Sasane, Vinda Karandikar, etc."
+M.A.,2,2026-04-20,11:00:00,13:00:00,PSYCHOLOGY,PSY -554,Strategic Human Resource Management
+M.A.,4,2026-04-21,11:00:00,13:00:00,ECONOMICS,ECO -651,International Economics and Finance-II
+M.A.,4,2026-04-21,11:00:00,13:00:00,ENGLISH,ENG -651,The Teaching of English Literature
+M.A.,4,2026-04-21,11:00:00,13:00:00,MARATHI,MRT-6251,"साहित्यप्रकाराचा अभ्यास – नाटक आणि एकांकिका  वाडा चिरेबंदी – महेश एलकुंचवार, सारं कसं शांत शांत – पु.ल.देशपांडे"
+M.A.,4,2026-04-21,11:00:00,13:00:00,PSYCHOLOGY,PSY -651,Community Psychology
+M.A.,4,2026-04-22,11:00:00,13:00:00,ECONOMICS,ECO -652,Growth & Development-II
+M.A.,4,2026-04-22,11:00:00,13:00:00,ENGLISH,ENG -652,Literature of Decoloniality
+M.A.,4,2026-04-22,11:00:00,13:00:00,MARATHI,MRT-652,समीक्षाविचार
+M.A.,4,2026-04-22,11:00:00,13:00:00,PSYCHOLOGY,PSY -652,"Biological processes in Motivation, Emotion and Cognition"
+M.A.,4,2026-04-23,11:00:00,13:00:00,ECONOMICS,ECO -653,Advanced Research Methods
+M.A.,4,2026-04-23,11:00:00,13:00:00,ENGLISH,ENG -653,Translation Studies
+M.A.,4,2026-04-23,11:00:00,13:00:00,MARATHI,MRT-653,विशेष लेखकाचा अभ्यास - अर्वाचीन :  शांता शेळके
+M.A.,4,2026-04-23,11:00:00,13:00:00,PSYCHOLOGY,PSY -653,Psychotherapies
+M.A.,4,2026-04-23,11:00:00,13:00:00,PSYCHOLOGY,PSY -654,Organization Development
+M.A.,4,2026-04-24,11:00:00,13:00:00,ECONOMICS,ECO -654,Economics of Environment
+M.A.,4,2026-04-24,11:00:00,13:00:00,ECONOMICS,ECO -655,Economics of Finance
+M.A.,4,2026-04-24,11:00:00,13:00:00,ENGLISH,ENG -654,African Literature
+M.A.,4,2026-04-24,11:00:00,13:00:00,ENGLISH,ENG -655,Subaltern Studies
+M.A.,4,2026-04-24,11:00:00,13:00:00,MARATHI,MRT-654,"ललित आणि वैचारिक लेख    बेलभाषा - सुमन बेलवलकर,   स्थलकाल  - अरुण टिकेकर,"
+M.A.,4,2026-04-24,11:00:00,13:00:00,MARATHI,MRT-655,"समीक्षा उपयोजन : उपयोजित समीक्षा - अ. वा. कुलकर्णी , खडक आणि पाणी गंगाधर गाडगीळ, जास्वंद माधव आचवल"
+M.A.,1,2026-04-09,15:00:00,17:00:00,ECONOMICS,ECO-501,Micro Economics-I
+M.A.,1,2026-04-09,15:00:00,17:00:00,ENGLISH,ENG-501,English Literature from Elizabethan to Neoclassical Age
+M.A.,1,2026-04-09,15:00:00,17:00:00,MARATHI,MRT-501,Toulanik Sahitya
+M.A.,1,2026-04-09,15:00:00,17:00:00,PSYCHOLOGY,PSY-501,Psychometry
+M.A.,1,2026-04-10,15:00:00,17:00:00,ECONOMICS,ECO-502,Public Economics-I
+M.A.,1,2026-04-10,15:00:00,17:00:00,ENGLISH,ENG-502,Literary Criticism and Theory: Plato to Eliot
+M.A.,1,2026-04-10,15:00:00,17:00:00,MARATHI,MRT-502,Madhyayugeen Marathi Sahityachi Sanskrutik Parshvabhoomi
+M.A.,1,2026-04-10,15:00:00,17:00:00,PSYCHOLOGY,PSY-502,Indian Psychology
+M.A.,1,2026-04-11,15:00:00,17:00:00,ECONOMICS,ECO-503,Macro Economics-I
+M.A.,1,2026-04-11,15:00:00,17:00:00,ENGLISH,ENG-503,Foundations of Linguistics
+M.A.,1,2026-04-11,15:00:00,17:00:00,MARATHI,MRT-503,Bhashavijnan – Varnanatmak
+M.A.,1,2026-04-11,15:00:00,17:00:00,PSYCHOLOGY,PSY-503,Psychopathology I
+M.A.,1,2026-04-13,15:00:00,17:00:00,ECONOMICS,ECO-504,Statistical Techniques
+M.A.,1,2026-04-13,15:00:00,17:00:00,ECONOMICS,ECO-505,Indian Economic Policy
+M.A.,1,2026-04-13,15:00:00,17:00:00,ENGLISH,ENG-504,War and Literature
+M.A.,1,2026-04-13,15:00:00,17:00:00,ENGLISH,ENG-505,Indian Writing in English
+M.A.,1,2026-04-13,15:00:00,17:00:00,MARATHI,MRT-504,Grameen ani Dalit Sahitya
+M.A.,1,2026-04-13,15:00:00,17:00:00,MARATHI,MRT-505,Lokapriya Sahitya
+M.A.,1,2026-04-13,15:00:00,17:00:00,PSYCHOLOGY,PSY-504,Performance Management and Development
+M.Sc.,3,2026-04-21,11:00:00,13:00:00,ANALYTICAL CHEMISTRY,CHA-601,Advanced Analytical Techniques
+M.Sc.,3,2026-04-21,11:00:00,13:00:00,BIOCHEMISTRY,CHB-601,Molecular Biology
+M.Sc.,3,2026-04-21,11:00:00,13:00:00,BIOTECHNOLOGY,BTH-601,Genomics and Genetic Engineering
+M.Sc.,3,2026-04-21,11:00:00,13:00:00,BOTANY,BOT-601,Inheritance Biology & Evolution
+M.Sc.,3,2026-04-21,11:00:00,13:00:00,COMPUTER APPLICATIONS,CSA-601,Python Programming
+M.Sc.,3,2026-04-21,11:00:00,13:00:00,COMPUTER SCIENCE,CSC-601,Cryptography and Information Security
+M.Sc.,3,2026-04-21,11:00:00,13:00:00,DATA SCIENCE,CSD-601,Neural Networks & Deep Learning
+M.Sc.,3,2026-04-21,11:00:00,13:00:00,ELECTRONIC SCIENCE,ELS-601,Data Communication and Networking
+M.Sc.,3,2026-04-21,11:00:00,13:00:00,ENVIRONMENTAL SCIENCE,EVS-601,Remote Sensing and GIS
+M.Sc.,3,2026-04-21,11:00:00,13:00:00,GEOLOGY,GLY-601,Indian Stratigraphy
+M.Sc.,3,2026-04-21,11:00:00,13:00:00,INDUSTRIAL MATHEMATICS WITH COMPUTER APPLICATIONS,MTS-601,Design and Analysis of Algorithms
+M.Sc.,3,2026-04-21,11:00:00,13:00:00,MICROBIOLOGY,MIC-601,Biophysics and Instrumentation
+M.Sc.,3,2026-04-21,11:00:00,13:00:00,ORGANIC CHEMISTRY,CHO-601,Stereochemistry of Organic Molecules
+M.Sc.,3,2026-04-21,11:00:00,13:00:00,PHYSICS,PHY-601,Electrodynamics
+M.Sc.,3,2026-04-21,11:00:00,13:00:00,ZOOLOGY,ZOO-601,Evolutionary Biology
+M.Sc.,3,2026-04-22,11:00:00,13:00:00,ANALYTICAL CHEMISTRY,CHA-602,Separation Techniques
+M.Sc.,3,2026-04-22,11:00:00,13:00:00,BIOCHEMISTRY,CHB-602,Immunology & Medical Biochemistry
+M.Sc.,3,2026-04-22,11:00:00,13:00:00,BIOTECHNOLOGY,BTH-602,Plant and Animal Biotechnology
+M.Sc.,3,2026-04-22,11:00:00,13:00:00,BOTANY,BOT-602,Molecular Processes in Plants
+M.Sc.,3,2026-04-22,11:00:00,13:00:00,COMPUTER APPLICATIONS,CSA-602,Mean Stack
+M.Sc.,3,2026-04-22,11:00:00,13:00:00,COMPUTER SCIENCE,CSC-602,Soft Computing
+M.Sc.,3,2026-04-22,11:00:00,13:00:00,ELECTRONIC SCIENCE,ELS -602,Embedded Processors
+M.Sc.,3,2026-04-22,11:00:00,13:00:00,ENVIRONMENTAL SCIENCE,EVS-602,Environmental Statistics and Computer Applications
+M.Sc.,3,2026-04-22,11:00:00,13:00:00,GEOLOGY,GLY-602,Exploration Methods
+M.Sc.,3,2026-04-22,11:00:00,13:00:00,INDUSTRIAL MATHEMATICS WITH COMPUTER APPLICATIONS,MTS-602,Digital Image Processing
+M.Sc.,3,2026-04-22,11:00:00,13:00:00,INDUSTRIAL MATHEMATICS WITH COMPUTER APPLICATIONS,MTS-605,Data Mining
+M.Sc.,3,2026-04-22,11:00:00,13:00:00,MICROBIOLOGY,MIC-602,Pharmaceutical Microbiology
+M.Sc.,3,2026-04-22,11:00:00,13:00:00,ORGANIC CHEMISTRY,CHO-602,Structure Determination by Analytical Methods
+M.Sc.,3,2026-04-22,11:00:00,13:00:00,PHYSICS,PHY-602,Statistical Mechanics
+M.Sc.,3,2026-04-22,11:00:00,13:00:00,ZOOLOGY,ZOO-602,Molecular Biology
+M.Sc.,3,2026-04-23,11:00:00,13:00:00,ANALYTICAL CHEMISTRY,CHA-603,Nanotechnology
+M.Sc.,3,2026-04-23,11:00:00,13:00:00,BIOCHEMISTRY,CHB-603,Physiology and Endocrinology (Signalling molecules)
+M.Sc.,3,2026-04-23,11:00:00,13:00:00,BIOTECHNOLOGY,BTH-603,"Stem Cell Biology, Regenerative medicine and Applied biotechnology"
+M.Sc.,3,2026-04-23,11:00:00,13:00:00,BOTANY,BOT-603,Principles of Plant Ecology
+M.Sc.,3,2026-04-23,11:00:00,13:00:00,COMPUTER APPLICATIONS,CSA-603,Software Testing
+M.Sc.,3,2026-04-23,11:00:00,13:00:00,COMPUTER SCIENCE,CSC-603,Cloud Computing
+M.Sc.,3,2026-04-23,11:00:00,13:00:00,ELECTRONIC SCIENCE,ELS-603,VLSI System Design
+M.Sc.,3,2026-04-23,11:00:00,13:00:00,ENVIRONMENTAL SCIENCE,EVS-603,Climate Change and Sustainability
+M.Sc.,3,2026-04-23,11:00:00,13:00:00,GEOLOGY,GLY-603,Engineering Geology and Geotechniques
+M.Sc.,3,2026-04-23,11:00:00,13:00:00,INDUSTRIAL MATHEMATICS WITH COMPUTER APPLICATIONS,MTS-607,Cryptography
+M.Sc.,3,2026-04-23,11:00:00,13:00:00,MICROBIOLOGY,MIC-603,Bioprocess development
+M.Sc.,3,2026-04-23,11:00:00,13:00:00,ORGANIC CHEMISTRY,CHO-603,Chemistry of Heterocycles and Medicinal Chemistry
+M.Sc.,3,2026-04-23,11:00:00,13:00:00,PHYSICS,PHY-603,Experimental Techniques in Physics
+M.Sc.,3,2026-04-23,11:00:00,13:00:00,PHYSICS,PHY-604,Atmospheric Science
+M.Sc.,3,2026-04-23,11:00:00,13:00:00,ZOOLOGY,ZOO-603,Advanced Biostatistics
+M.Sc.,3,2026-04-24,11:00:00,13:00:00,ANALYTICAL CHEMISTRY,CHA-604,Pharmaceutical Chemistry
+M.Sc.,3,2026-04-24,11:00:00,12:00:00,BIOCHEMISTRY,CHB-604,Plant Biochemistry
+M.Sc.,3,2026-04-24,11:00:00,12:00:00,BIOTECHNOLOGY,BTH-604,Immunology
+M.Sc.,3,2026-04-24,11:00:00,13:00:00,BOTANY,BOT-606,Industrial Botany
+M.Sc.,3,2026-04-24,11:00:00,13:00:00,ELECTRONIC SCIENCE,ELS-604,VLSI System Design
+M.Sc.,3,2026-04-24,11:00:00,12:00:00,MICROBIOLOGY,MIC-604,Advanced Molecular techniques
+M.Sc.,3,2026-04-24,11:00:00,13:00:00,ORGANIC CHEMISTRY,CHO-604,Chemistry of Natural Products and Chiron Approach
+M.Sc.,3,2026-04-24,11:00:00,13:00:00,ZOOLOGY,ZOO-605,Immunology
+M.Sc.,3,2026-04-25,11:00:00,12:00:00,BIOCHEMISTRY,CHB-605,Fermentation Technology
+M.Sc.,2,2026-04-21,15:00:00,17:00:00,ANALYTICAL CHEMISTRY,CHA-551,Reaction Mechanism in Organic Chemistry
+M.Sc.,2,2026-04-21,15:00:00,17:00:00,BIOCHEMISTRY,CHB-551,Metabolism
+M.Sc.,2,2026-04-21,15:00:00,17:00:00,BIOTECHNOLOGY,BTH-551,Industrial Biotechnology and Bioinformatics
+M.Sc.,2,2026-04-21,15:00:00,17:00:00,BOTANY,BOT-551,Systematics of Vascular Plants
+M.Sc.,2,2026-04-21,15:00:00,17:00:00,COMPUTER APPLICATIONS,CSA-551,Networking Concepts
+M.Sc.,2,2026-04-21,15:00:00,17:00:00,COMPUTER SCIENCE,CSC-551,Full Stack II MERN Stack
+M.Sc.,2,2026-04-21,15:00:00,17:00:00,DATA SCIENCE,CSD-551,Machine Learning
+M.Sc.,2,2026-04-21,15:00:00,17:00:00,ELECTRONIC SCIENCE,ELS -551,Electromagnetic Theory and Applications
+M.Sc.,2,2026-04-21,15:00:00,17:00:00,ENVIRONMENTAL SCIENCE,EVS-551,EIA and Environmental Audit
+M.Sc.,2,2026-04-21,15:00:00,17:00:00,GEOLOGY,GLY-551,Sedimentology
+M.Sc.,2,2026-04-21,15:00:00,17:00:00,INDUSTRIAL MATHEMATICS WITH COMPUTER APPLICATIONS,MTS-551,Abstract Algebra
+M.Sc.,2,2026-04-21,15:00:00,17:00:00,MICROBIOLOGY,MIC-551,Microbial Metabolism
+M.Sc.,2,2026-04-21,15:00:00,17:00:00,ORGANIC CHEMISTRY,CHO-551,Reaction mechanism in organic chemistry
+M.Sc.,2,2026-04-21,15:00:00,17:00:00,PHYSICS,PHY-551,Quantum Mechanics
+M.Sc.,2,2026-04-21,15:00:00,17:00:00,ZOOLOGY,ZOO-551,Genetics
+M.Sc.,2,2026-04-22,15:00:00,17:00:00,ANALYTICAL CHEMISTRY,CHA-552,Advanced Inorganic Chemistry - II
+M.Sc.,2,2026-04-22,15:00:00,17:00:00,BIOCHEMISTRY,CHB-552,Genetics and Membrane Biochemistry
+M.Sc.,2,2026-04-22,15:00:00,17:00:00,BIOTECHNOLOGY,BTH-552,Developmental Biology and Human Genetics
+M.Sc.,2,2026-04-22,15:00:00,17:00:00,BOTANY,BOT-552,Cellular Processes in Plants
+M.Sc.,2,2026-04-22,15:00:00,17:00:00,COMPUTER APPLICATIONS,CSA-552,Algorithms and Data Structure
+M.Sc.,2,2026-04-22,15:00:00,17:00:00,COMPUTER SCIENCE,CSC-552,Artificial Intelligence
+M.Sc.,2,2026-04-22,15:00:00,17:00:00,DATA SCIENCE,CSD-552,Statistical Inference
+M.Sc.,2,2026-04-22,15:00:00,17:00:00,ELECTRONIC SCIENCE,ELS -552,Embedded Systems
+M.Sc.,2,2026-04-22,15:00:00,17:00:00,ENVIRONMENTAL SCIENCE,EVS-552,Water and Wastewater Treatment Technologies
+M.Sc.,2,2026-04-22,15:00:00,17:00:00,GEOLOGY,GLY-552,Structural Geology
+M.Sc.,2,2026-04-22,15:00:00,17:00:00,INDUSTRIAL MATHEMATICS WITH COMPUTER APPLICATIONS,MTS-552,Probability & Statistics
+M.Sc.,2,2026-04-22,15:00:00,17:00:00,MICROBIOLOGY,MIC-552,Molecular Biology
+M.Sc.,2,2026-04-22,15:00:00,17:00:00,ORGANIC CHEMISTRY,CHO-552,Advanced Inorganic Chemistry-II
+M.Sc.,2,2026-04-22,15:00:00,17:00:00,PHYSICS,PHY-552,"Atoms, Molecules and Solids"
+M.Sc.,2,2026-04-22,15:00:00,17:00:00,ZOOLOGY,ZOO-552,Animal Physiology
+M.Sc.,2,2026-04-23,15:00:00,17:00:00,ANALYTICAL CHEMISTRY,CHA-553,Advanced Physical Chemistry - II
+M.Sc.,2,2026-04-23,15:00:00,17:00:00,BIOCHEMISTRY,CHB-553,Techniques in Characterization of Biomolecules
+M.Sc.,2,2026-04-23,15:00:00,17:00:00,BIOTECHNOLOGY,BTH-554,Clinical Research
+M.Sc.,2,2026-04-23,15:00:00,17:00:00,BOTANY,BOT-554,Plant Interactions
+M.Sc.,2,2026-04-23,15:00:00,17:00:00,COMPUTER APPLICATIONS,CSA-553,Java Programming
+M.Sc.,2,2026-04-23,15:00:00,17:00:00,COMPUTER SCIENCE,CSC-554,Predictive analytics and data visualization
+M.Sc.,2,2026-04-23,15:00:00,17:00:00,DATA SCIENCE,CSD-553,Mathematical Foundation - II
+M.Sc.,2,2026-04-23,15:00:00,17:00:00,ELECTRONIC SCIENCE,ELS-553,Industrial Power Electronics
+M.Sc.,2,2026-04-23,15:00:00,17:00:00,ENVIRONMENTAL SCIENCE,EVS-554,Ecosystem Restoration and Remediation
+M.Sc.,2,2026-04-23,15:00:00,17:00:00,GEOLOGY,GLY-553,Principles of Stratigraphy and Palaeontology
+M.Sc.,2,2026-04-23,15:00:00,17:00:00,INDUSTRIAL MATHEMATICS WITH COMPUTER APPLICATIONS,MTS-553,Graph Theory and its Applications
+M.Sc.,2,2026-04-23,15:00:00,17:00:00,MICROBIOLOGY,MIC-553,Virology
+M.Sc.,2,2026-04-23,15:00:00,17:00:00,ORGANIC CHEMISTRY,CHO-553,Advanced Physical Chemistry-II
+M.Sc.,2,2026-04-23,15:00:00,17:00:00,PHYSICS,PHY-553,Materials Science
+M.Sc.,2,2026-04-23,15:00:00,17:00:00,PHYSICS,PHY-554,Observational Astronomy and Instrumentation
+M.Sc.,2,2026-04-23,15:00:00,17:00:00,ZOOLOGY,ZOO-554,Ecology
+M.Sc.,2,2026-04-24,15:00:00,17:00:00,DATA SCIENCE,CSD-555,Data Integration
+M.Sc.,2,2026-04-24,15:00:00,17:00:00,INDUSTRIAL MATHEMATICS WITH COMPUTER APPLICATIONS,MTS-561,Digital Image Processing
+M.Sc.,4,2026-04-25,15:00:00,17:00:00,ANALYTICAL CHEMISTRY,CHA-651,Forensic science and Toxicology
+M.Sc.,4,2026-04-25,15:00:00,17:00:00,BIOCHEMISTRY,CHB-651,Genetic Engineering
+M.Sc.,4,2026-04-25,15:00:00,16:00:00,BIOTECHNOLOGY,BTH-651,Proteomics and Metabolomics
+M.Sc.,4,2026-04-25,15:00:00,17:00:00,BOTANY,BOT-651,Developmental Botany & Plant Tissue Culture
+M.Sc.,4,2026-04-25,15:00:00,17:00:00,COMPUTER APPLICATIONS,CSA-651,Data Mining
+M.Sc.,4,2026-04-25,15:00:00,17:00:00,COMPUTER SCIENCE,CSC-651,Software Metrics and Project Management
+M.Sc.,4,2026-04-25,15:00:00,17:00:00,DATA SCIENCE,CSD-651,Applied Analytics
+M.Sc.,4,2026-04-25,15:00:00,17:00:00,ELECTRONIC SCIENCE,ELS-651,Industrial Process Control
+M.Sc.,4,2026-04-25,15:00:00,17:00:00,ENVIRONMENTAL SCIENCE,EVS-651,Green Technologies
+M.Sc.,4,2026-04-25,15:00:00,17:00:00,GEOLOGY,GLY-651,Indian Mineral Deposits and Mining Geology
+M.Sc.,4,2026-04-25,15:00:00,17:00:00,INDUSTRIAL MATHEMATICS WITH COMPUTER APPLICATIONS,MTS-651,Cryptography
+M.Sc.,4,2026-04-25,15:00:00,16:00:00,MICROBIOLOGY,MIC-651,Microbial Ecology
+M.Sc.,4,2026-04-25,15:00:00,17:00:00,ORGANIC CHEMISTRY,CHO-651,Advanced Synthetic Organic Chemistry
+M.Sc.,4,2026-04-25,15:00:00,17:00:00,PHYSICS,PHY-651,Solid State Physics
+M.Sc.,4,2026-04-25,15:00:00,17:00:00,ZOOLOGY,ZOO-651,Developmental Biology
+M.Sc.,4,2026-04-27,15:00:00,17:00:00,ANALYTICAL CHEMISTRY,CHA-652,Spectroscopic Techniques
+M.Sc.,4,2026-04-27,15:00:00,16:00:00,BIOCHEMISTRY,CHB-652,Toxicology
+M.Sc.,4,2026-04-27,15:00:00,17:00:00,BIOTECHNOLOGY,BTH-652,Virology and Molecular Diagnostics
+M.Sc.,4,2026-04-27,15:00:00,17:00:00,BOTANY,BOT-652,Plant Biotechnology
+M.Sc.,4,2026-04-27,15:00:00,16:00:00,COMPUTER APPLICATIONS,CSA-653,Software Project Management
+M.Sc.,4,2026-04-27,15:00:00,17:00:00,ELECTRONIC SCIENCE,ELS -652,Internet of Things
+M.Sc.,4,2026-04-27,15:00:00,17:00:00,ENVIRONMENTAL SCIENCE,EVS-652,Energy Resources and Technologies
+M.Sc.,4,2026-04-27,15:00:00,17:00:00,GEOLOGY,GLY-652,Hydrogeology and Groundwater Development and Management
+M.Sc.,4,2026-04-27,15:00:00,16:00:00,INDUSTRIAL MATHEMATICS WITH COMPUTER APPLICATIONS,MTS-671,Emerging Technologies: Introduction to Blockchain Technology
+M.Sc.,4,2026-04-27,15:00:00,17:00:00,MICROBIOLOGY,MIC-653,Food Technology
+M.Sc.,4,2026-04-27,15:00:00,17:00:00,ORGANIC CHEMISTRY,CHO-652,Designing of Organic Synthesis and Asymmetric Synthesis
+M.Sc.,4,2026-04-27,15:00:00,17:00:00,PHYSICS,PHY-652,Nuclear Physics
+M.Sc.,4,2026-04-27,15:00:00,17:00:00,ZOOLOGY,ZOO-653,Biological Techniques and Bioinformatics
+M.Sc.,4,2026-04-28,15:00:00,16:00:00,BIOCHEMISTRY,CHB-653,Stem Cell as Regenerative Medicine
+M.Sc.,4,2026-04-28,15:00:00,17:00:00,BIOTECHNOLOGY,BTH-657,Emerging Trends Technologies
+M.Sc.,4,2026-04-28,15:00:00,16:00:00,ELECTRONIC SCIENCE,ELS-653,Electric and Hybrid Electric Vehicles
+M.Sc.,4,2026-04-28,15:00:00,17:00:00,ENVIRONMENTAL SCIENCE,EVS-653,Environment Management Systems
+M.Sc.,4,2026-04-28,15:00:00,17:00:00,GEOLOGY,GLY-653,Petroleum Geology and Oil Field Practices
+M.Sc.,4,2026-04-28,15:00:00,17:00:00,MICROBIOLOGY,MIC-656,"IPR, Biosafety and Bioethics"
+M.Sc.,4,2026-04-28,15:00:00,17:00:00,PHYSICS,PHY-653,Advance Astronomy and Astrophysics
+M.Sc.,4,2026-04-28,15:00:00,17:00:00,PHYSICS,PHY-654,Physics of Nanomaterials
+M.Sc.,4,2026-04-29,15:00:00,16:00:00,ELECTRONIC SCIENCE,ELS-654,Real Time Operating System
+M.Sc.,1,2026-04-16,11:00:00,13:00:00,ANALYTICAL CHEMISTRY,CHA-501,Advanced Organic Chemistry and Spectroscopy
+M.Sc.,1,2026-04-16,11:00:00,13:00:00,BIOCHEMISTRY,CHB-501,Biomolecules
+M.Sc.,1,2026-04-16,11:00:00,13:00:00,BIOTECHNOLOGY,BTH-501,Cell Biology and Bacteriology
+M.Sc.,1,2026-04-16,11:00:00,13:00:00,BOTANY,BOT-501,Systematics of Avascular Plants
+M.Sc.,1,2026-04-16,11:00:00,13:00:00,COMPUTER APPLICATIONS,CSA-501,Software Engineering Concepts
+M.Sc.,1,2026-04-16,11:00:00,13:00:00,COMPUTER SCIENCE,CSC-501,Full Stack I: Web UI and Responsive UI Framework
+M.Sc.,1,2026-04-16,11:00:00,13:00:00,DATA SCIENCE,CSD-501,Python Programming
+M.Sc.,1,2026-04-16,11:00:00,13:00:00,ELECTRONIC SCIENCE,ELS-501,Analog System Design
+M.Sc.,1,2026-04-16,11:00:00,13:00:00,ENVIRONMENTAL SCIENCE,EVS-501,Environmental Geo and Atmospheric Sciences
+M.Sc.,1,2026-04-16,11:00:00,13:00:00,GEOLOGY,GLY-501,Igneous Petrology
+M.Sc.,1,2026-04-16,11:00:00,13:00:00,INDUSTRIAL MATHEMATICS WITH COMPUTER APPLICATIONS,MTS-501,Mathematical Analysis
+M.Sc.,1,2026-04-16,11:00:00,13:00:00,MICROBIOLOGY,MIC-501,Microbial Diversity and Molecular Taxonomy
+M.Sc.,1,2026-04-16,11:00:00,13:00:00,ORGANIC CHEMISTRY,CHO-501,Advance organic chemistry and spectroscopy
+M.Sc.,1,2026-04-16,11:00:00,13:00:00,PHYSICS,PHY-501,Classical Mechanics
+M.Sc.,1,2026-04-16,11:00:00,13:00:00,ZOOLOGY,ZOO-501,Cell Biology
+M.Sc.,1,2026-04-17,11:00:00,13:00:00,ANALYTICAL CHEMISTRY,CHA-502,Advanced Inorganic Chemistry - I
+M.Sc.,1,2026-04-17,11:00:00,13:00:00,BIOCHEMISTRY,CHB-502,Microbiology and Cell Biology
+M.Sc.,1,2026-04-17,11:00:00,13:00:00,BIOTECHNOLOGY,BTH-502,Molecular Biology and Biochemistry
+M.Sc.,1,2026-04-17,11:00:00,13:00:00,BOTANY,BOT-502,Metabolic processes in Plants
+M.Sc.,1,2026-04-17,11:00:00,13:00:00,COMPUTER APPLICATIONS,CSA-502,Operating Systems
+M.Sc.,1,2026-04-17,11:00:00,13:00:00,COMPUTER SCIENCE,CSC-502,Analysis of Algorithms and Computing
+M.Sc.,1,2026-04-17,11:00:00,13:00:00,DATA SCIENCE,CSD-502,Probability and Statistics
+M.Sc.,1,2026-04-17,11:00:00,13:00:00,ELECTRONIC SCIENCE,ELS-502,Digital System Design using HDL
+M.Sc.,1,2026-04-17,11:00:00,13:00:00,ENVIRONMENTAL SCIENCE,EVS-502,Environmental Biology
+M.Sc.,1,2026-04-17,11:00:00,13:00:00,GEOLOGY,GLY-502,Metamorphic Petrology
+M.Sc.,1,2026-04-17,11:00:00,13:00:00,INDUSTRIAL MATHEMATICS WITH COMPUTER APPLICATIONS,MTS-502,Applied Linear Algebra
+M.Sc.,1,2026-04-17,11:00:00,13:00:00,MICROBIOLOGY,MIC-502,Microbial Biochemistry
+M.Sc.,1,2026-04-17,11:00:00,13:00:00,ORGANIC CHEMISTRY,CHO-502,Advanced Inorganic Chemistry-I
+M.Sc.,1,2026-04-17,11:00:00,13:00:00,PHYSICS,PHY-502,Mathematical Methods in Physics
+M.Sc.,1,2026-04-17,11:00:00,13:00:00,ZOOLOGY,ZOO-502,Biochemistry
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,ANALYTICAL CHEMISTRY,CHA-503,Advanced Physical Chemistry - I
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,BIOCHEMISTRY,CHB-503,Enzymology and Biophysical Techniques
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,BIOTECHNOLOGY,BTH-503,Agricultural Biotechnology
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,BOTANY,BOT-504,Biophysical Techniques
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,COMPUTER APPLICATIONS,CSA-503,Mathematical Foundation
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,COMPUTER APPLICATIONS,CSA-504,Programming Paradigms
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,COMPUTER SCIENCE,CSC-504,Business Intelligence and Analytics
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,DATA SCIENCE,CSD-503,Mathematical Foundation - I
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,ELECTRONIC SCIENCE,ELS-503,Signals and Systems
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,ENVIRONMENTAL SCIENCE,EVS-503,Environmental Chemistry
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,ENVIRONMENTAL SCIENCE,EVS-504,"Environmental Health, Toxicology and Safety"
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,GEOLOGY,GLY-503,"Geomorphology, Remote Sensing and GIS"
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,INDUSTRIAL MATHEMATICS WITH COMPUTER APPLICATIONS,MTS-504,Mathematical Foundations of Computer Science
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,INDUSTRIAL MATHEMATICS WITH COMPUTER APPLICATIONS,MTS-505,Graph Theory and its Applications
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,MICROBIOLOGY,MIC-503,Applied Microbiology
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,ORGANIC CHEMISTRY,CHO-503,Advanced Physical Chemistry-I
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,PHYSICS,PHY-503,Electronics
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,PHYSICS,PHY-504,Basic Astronomy and Astrophysics
+M.Sc.,1,2026-04-18,11:00:00,13:00:00,ZOOLOGY,ZOO-503,Advanced Endocrinology

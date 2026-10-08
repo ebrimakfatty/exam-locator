@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Exam Location - Fergusson College</title>
+
+    <link
+        rel="stylesheet"
+        href="/css/map.css"
+    >
+
+    <link rel="stylesheet" href="/vendor/leaflet/leaflet.css">
+</head>
+
+<body>
+
+<!-- ==================================================
+     HEADER
+================================================== -->
+
+<header class="map-header">
+
+    <div class="header-content">
+
+        <div>
+
+            <div class="college-name">
+                FERGUSSON COLLEGE
+            </div>
+
+            <div class="college-subtitle">
+                Examination Section
+            </div>
+
+        </div>
+
+        <a
+            href="/"
+            class="back-home"
+        >
+            ← Back to Search
+        </a>
+
+    </div>
+
+</header>
+
+
+<!-- ==================================================
+     MAIN
+================================================== -->
+
+<main class="map-container">
+
+
+    <!-- ==================================================
+         INTRODUCTION
+    ================================================== -->
+
+    <section class="page-introduction">
+
+        <span class="section-label">
+            EXAM LOCATION
+        </span>
+
+        <h1>
+            Find Your Examination Room
+        </h1>
+
+        <p>
+            Follow the campus map to locate your
+            examination building.
+        </p>
+
+    </section>
+
+
+    <!-- ==================================================
+         DESTINATION INFORMATION
+    ================================================== -->
+
+    <section class="destination-card">
+
+        <div class="destination-icon">
+            📍
+        </div>
+
+        <div class="destination-content">
+
+            <p class="destination-label">
+                YOUR DESTINATION
+            </p>
+
+            <h2 id="destination-title">
+                Examination Room
+            </h2>
+
+
+            <div class="destination-details">
+
+
+                <div class="detail-item">
+
+                    <span class="detail-label">
+                        Course
+                    </span>
+
+                    <span
+                        class="detail-value"
+                        id="course-code"
+                    >
+                        Loading...
+                    </span>
+
+                </div>
+
+
+                <div class="detail-item">
+
+                    <span class="detail-label">
+                        Building
+                    </span>
+
+                    <span
+                        class="detail-value"
+                        id="building-name"
+                    >
+                        Loading...
+                    </span>
+
+                </div>
+
+
+                <div class="detail-item">
+
+                    <span class="detail-label">
+                        Floor
+                    </span>
+
+                    <span
+                        class="detail-value"
+                        id="floor-number"
+                    >
+                        Loading...
+                    </span>
+
+                </div>
+
+
+                <div class="detail-item">
+
+                    <span class="detail-label">
+                        Room
+                    </span>
+
+                    <span
+                        class="detail-value"
+                        id="room-number"
+                    >
+                        Loading...
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         CAMPUS MAP
+    ================================================== -->
+
+    <section class="map-section">
+
+        <div class="map-heading">
+
+            <div>
+
+                <span class="section-label">
+                    CAMPUS MAP
+                </span>
+
+                <h2>
+                    Fergusson College Campus
+                </h2>
+
+            </div>
+
+            <span class="map-status">
+                Interactive Map
+            </span>
+
+        </div>
+
+
+        <!-- ==================================================
+             MAP
+        ================================================== -->
+
+        <div class="campus-map" id="campus-map">
+            <div id="leaflet-map" role="application" aria-label="Fergusson College campus map"></div>
+        </div>
+
+        <div class="map-actions">
+            <a id="google-maps-link" class="map-google-link" href="#" target="_blank" rel="noopener" style="display:none;">
+                Open in Google Maps
+            </a>
+            <span class="map-note">
+                Building positions are approximate. Map data &copy; OpenStreetMap contributors.
+            </span>
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         LOCATION INFORMATION
+    ================================================== -->
+
+    <section class="location-instructions">
+
+        <div class="instruction-icon">
+            🧭
+        </div>
+
+        <div>
+
+            <h2>
+                How to reach your examination room
+            </h2>
+
+            <ol>
+
+                <li>
+                    Enter through the main entrance.
+                </li>
+
+                <li>
+                    Locate your examination building
+                    on the map.
+                </li>
+
+                <li>
+                    Enter the building and go to your
+                    specified floor.
+                </li>
+
+                <li>
+                    Find your examination room number.
+                </li>
+
+            </ol>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================================================
+         ERROR
+    ================================================== -->
+
+    <div
+        id="map-error"
+        class="map-error"
+        style="display:none;"
+    >
+    </div>
+
+
+</main>
+
+
+<!-- ==================================================
+     FOOTER
+================================================== -->
+
+<footer class="map-footer">
+
+    <p>
+        Fergusson College Examination Section
+    </p>
+
+    <p>
+        Exam Classroom Locator
+    </p>
+
+</footer>
+
+
+<script src="/vendor/leaflet/leaflet.js"></script>
+<script src="/js/map.js"></script>
+
+<script src="/js/campus-map.js"></script>
+
+</body>
+
+</html>

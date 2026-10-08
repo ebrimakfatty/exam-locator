@@ -1,0 +1,1014 @@
+/* =========================================================
+   EXAM CLASSROOM LOCATOR
+   Fergusson College
+   Student Interface Styling
+========================================================= */
+
+
+/* =========================================================
+   GLOBAL
+========================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+
+    background: #F4F9F8;
+
+    color: #1B2B2C;
+
+    min-height: 100vh;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.site-header {
+    background: #013A40;
+
+    color: white;
+
+    width: 100%;
+
+    border-bottom:
+        4px solid #028090;
+}
+
+.header-content {
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    padding: 18px 25px;
+}
+
+.college-info {
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+}
+
+.college-logo {
+    width: 52px;
+    height: 52px;
+
+    border-radius: 50%;
+
+    background: white;
+
+    color: #013A40;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 17px;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+}
+
+.college-info h2 {
+    margin: 0;
+
+    font-size: 21px;
+
+    font-weight: 700;
+}
+
+.college-info p {
+    margin: 3px 0 0;
+
+    color: #D7EEEE;
+
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   MAIN CONTAINER
+========================================================= */
+
+.container {
+    max-width: 1000px;
+
+    margin: 0 auto;
+
+    padding:
+        55px 20px 70px;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero {
+    text-align: center;
+
+    margin-bottom: 35px;
+}
+
+.hero-badge {
+    display: inline-block;
+
+    padding: 7px 14px;
+
+    border-radius: 20px;
+
+    background: #E0F3F1;
+
+    color: #028090;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    margin: 0 0 12px;
+
+    color: #013A40;
+
+    font-size: 42px;
+
+    line-height: 1.2;
+
+    font-weight: 750;
+}
+
+.subtitle {
+    max-width: 650px;
+
+    margin: 0 auto;
+
+    color: #5C6F70;
+
+    font-size: 17px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   SEARCH SECTION
+========================================================= */
+
+.search-section {
+    max-width: 750px;
+
+    margin: 0 auto;
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 14px;
+
+    border:
+        1px solid #E0EEEE;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.07);
+}
+
+#search-form {
+    display: flex;
+
+    align-items: flex-end;
+
+    gap: 12px;
+}
+
+.search-input-wrapper {
+    flex: 1;
+}
+
+.search-input-wrapper label {
+    display: block;
+
+    margin-bottom: 7px;
+
+    color: #1B2B2C;
+
+    font-size: 14px;
+
+    font-weight: 700;
+}
+
+#course-code {
+    width: 100%;
+
+    padding: 14px 15px;
+
+    border:
+        1px solid #C7DEDB;
+
+    border-radius: 9px;
+
+    font-size: 16px;
+
+    color: #1B2B2C;
+
+    background: white;
+
+    outline: none;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+#course-code:focus {
+    border-color: #028090;
+
+    box-shadow:
+        0 0 0 3px
+        rgba(2, 128, 144, 0.12);
+}
+
+#course-code::placeholder {
+    color: #8A9A9B;
+}
+
+
+/* =========================================================
+   BUTTON
+========================================================= */
+
+button {
+    border: none;
+
+    border-radius: 9px;
+
+    padding: 14px 22px;
+
+    background: #028090;
+
+    color: white;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        transform 0.1s ease;
+}
+
+button:hover {
+    background: #013A40;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+button:disabled {
+    background: #8BA8AA;
+
+    cursor: not-allowed;
+}
+
+#search-button {
+    min-width: 135px;
+}
+
+
+/* =========================================================
+   SEARCH HELP
+========================================================= */
+
+.search-help {
+    margin: 12px 0 0;
+
+    color: #7A898A;
+
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   RESULT AREA
+========================================================= */
+
+#result-area {
+    margin-top: 30px;
+}
+
+
+/* =========================================================
+   RESULT CARD
+========================================================= */
+
+.result-card {
+    background: white;
+
+    border-radius: 15px;
+
+    padding: 28px;
+
+    margin-bottom: 20px;
+
+    border:
+        1px solid #E0EEEE;
+
+    box-shadow:
+        0 5px 18px rgba(0, 0, 0, 0.07);
+}
+
+.result-header {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-start;
+
+    gap: 20px;
+
+    margin-bottom: 18px;
+}
+
+.result-card h2 {
+    margin: 0;
+
+    color: #028090;
+
+    font-size: 27px;
+
+    font-weight: 750;
+}
+
+.result-status {
+    padding: 6px 11px;
+
+    border-radius: 20px;
+
+    background: #E8F7EE;
+
+    color: #176B3A;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    white-space: nowrap;
+}
+
+.paper-title {
+    margin: 6px 0 0;
+
+    color: #5C6F70;
+
+    font-size: 15px;
+}
+
+
+/* =========================================================
+   EXAM DETAILS GRID
+========================================================= */
+
+.exam-details-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 14px;
+
+    margin-top: 20px;
+}
+
+.detail-item {
+    background: #F7FBFA;
+
+    border:
+        1px solid #E0EEEE;
+
+    border-radius: 9px;
+
+    padding: 15px;
+}
+
+.detail-label {
+    display: block;
+
+    margin-bottom: 5px;
+
+    color: #718182;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.4px;
+}
+
+.detail-value {
+    color: #1B2B2C;
+
+    font-size: 16px;
+
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   LOCATION BOX
+========================================================= */
+
+.location-box {
+    margin-top: 22px;
+
+    padding: 20px;
+
+    border-radius: 11px;
+
+    background: #E8F7EE;
+
+    border-left:
+        5px solid #176B3A;
+}
+
+.location-title {
+    margin: 0 0 15px;
+
+    color: #176B3A;
+
+    font-size: 18px;
+
+    font-weight: 750;
+}
+
+.location-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 12px;
+}
+
+.location-item {
+    background: white;
+
+    padding: 13px;
+
+    border-radius: 8px;
+
+    border:
+        1px solid #D5EBDD;
+}
+
+.location-item span {
+    display: block;
+
+    color: #718182;
+
+    font-size: 12px;
+
+    margin-bottom: 4px;
+
+    font-weight: 600;
+}
+
+.location-item strong {
+    color: #1B2B2C;
+
+    font-size: 16px;
+}
+
+
+/* =========================================================
+   MAP BUTTON / FUTURE LOCATION
+========================================================= */
+
+.location-action {
+    margin-top: 17px;
+}
+
+.location-button {
+    display: inline-block;
+
+    background: #176B3A;
+
+    padding: 11px 17px;
+
+    border-radius: 8px;
+
+    color: white;
+
+    font-size: 14px;
+
+    font-weight: 700;
+}
+
+.location-button:hover {
+    background: #10552D;
+}
+
+.map-coming-soon {
+    margin-top: 12px;
+
+    padding: 11px 13px;
+
+    background: #F4F9F8;
+
+    border-radius: 7px;
+
+    color: #5C6F70;
+
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   ROOM NOT ASSIGNED
+========================================================= */
+
+.room-pending {
+    margin-top: 20px;
+
+    padding: 15px;
+
+    border-radius: 9px;
+
+    background: #FFF6E5;
+
+    border-left:
+        5px solid #A66A00;
+
+    color: #8A5A00;
+
+    line-height: 1.5;
+
+    font-size: 14px;
+}
+
+
+/* =========================================================
+   ERROR MESSAGE
+========================================================= */
+
+.error-message {
+    padding: 15px 17px;
+
+    background: #FCEBEE;
+
+    border-left:
+        5px solid #B00020;
+
+    border-radius: 9px;
+
+    color: #B00020;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+   LOADING MESSAGE
+========================================================= */
+
+.loading-message {
+    padding: 18px;
+
+    background: white;
+
+    border-radius: 10px;
+
+    border:
+        1px solid #E0EEEE;
+
+    color: #5C6F70;
+
+    text-align: center;
+
+    box-shadow:
+        0 3px 12px rgba(0, 0, 0, 0.05);
+}
+
+
+/* =========================================================
+   INFORMATION SECTION
+========================================================= */
+
+.information-section {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 16px;
+
+    margin-top: 45px;
+}
+
+.information-card {
+    display: flex;
+
+    gap: 13px;
+
+    align-items: flex-start;
+
+    background: white;
+
+    padding: 19px;
+
+    border-radius: 11px;
+
+    border:
+        1px solid #E0EEEE;
+
+    box-shadow:
+        0 3px 12px rgba(0, 0, 0, 0.04);
+}
+
+.information-icon {
+    flex-shrink: 0;
+
+    width: 34px;
+    height: 34px;
+
+    border-radius: 50%;
+
+    background: #E0F3F1;
+
+    color: #028090;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 800;
+
+    font-size: 14px;
+}
+
+.information-card h3 {
+    margin: 0 0 5px;
+
+    color: #013A40;
+
+    font-size: 15px;
+}
+
+.information-card p {
+    margin: 0;
+
+    color: #718182;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+   FUTURE LOCATION
+========================================================= */
+
+.future-location {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-top: 25px;
+
+    padding: 20px;
+
+    background: #E8F4FA;
+
+    border:
+        1px solid #D2E8F1;
+
+    border-radius: 11px;
+}
+
+.future-icon {
+    font-size: 28px;
+}
+
+.future-location h3 {
+    margin: 0 0 5px;
+
+    color: #075985;
+
+    font-size: 16px;
+}
+
+.future-location p {
+    margin: 0;
+
+    color: #5C6F70;
+
+    font-size: 13px;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.site-footer {
+    padding: 25px 20px;
+
+    background: #013A40;
+
+    color: #CDE1E1;
+
+    text-align: center;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+}
+
+.site-footer p {
+    margin: 3px 0;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 750px) {
+
+    .container {
+        padding:
+            40px 15px 55px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    .subtitle {
+        font-size: 15px;
+    }
+
+    #search-form {
+        flex-direction: column;
+
+        align-items: stretch;
+    }
+
+    #search-button {
+        width: 100%;
+    }
+
+    .information-section {
+        grid-template-columns: 1fr;
+    }
+
+    .location-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .exam-details-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .result-header {
+        flex-direction: column;
+
+        gap: 10px;
+    }
+
+    .result-status {
+        align-self: flex-start;
+    }
+
+}
+
+
+@media (max-width: 450px) {
+
+    .header-content {
+        padding: 15px;
+    }
+
+    .college-info h2 {
+        font-size: 18px;
+    }
+
+    .college-info p {
+        font-size: 12px;
+    }
+
+    .college-logo {
+        width: 45px;
+        height: 45px;
+    }
+
+    .hero h1 {
+        font-size: 29px;
+    }
+
+    .search-section {
+        padding: 18px;
+    }
+
+    .result-card {
+        padding: 20px;
+    }
+
+}
+
+/* =========================
+   VIEW LOCATION BUTTON
+========================= */
+
+.location-action {
+    margin-top: 18px;
+}
+
+.view-location-button {
+
+    display: inline-block;
+
+    text-decoration: none;
+
+    background: #013A40;
+
+    color: white;
+
+    padding: 12px 18px;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    transition:
+        background 0.2s ease,
+        transform 0.1s ease;
+}
+
+.view-location-button:hover {
+
+    background: #028090;
+
+}
+
+.view-location-button:active {
+
+    transform: scale(0.98);
+
+}
+
+/* =========================
+   VIEW LOCATION BUTTON
+========================= */
+
+.view-location-button {
+    display: inline-block;
+
+    margin-top: 15px;
+
+    padding: 12px 18px;
+
+    background: #028090;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-weight: 600;
+
+    transition:
+        background 0.2s ease,
+        transform 0.1s ease;
+}
+
+.view-location-button:hover {
+    background: #013A40;
+}
+
+.view-location-button:active {
+    transform: scale(0.98);
+}
+
+
+/* =========================
+   EXAM INFORMATION
+========================= */
+
+.exam-information {
+    margin-top: 10px;
+}
+
+
+/* =========================
+   SUCCESS MESSAGE
+========================= */
+
+.success-message {
+    color: #176B3A;
+
+    background: #E8F7EE;
+
+    border-left:
+        5px solid #176B3A;
+
+    padding: 14px 16px;
+
+    border-radius: 8px;
+
+    line-height: 1.5;
+}
+
+/* ==================================================
+   SEARCH SUGGESTIONS DROPDOWN
+================================================== */
+
+.search-input-wrapper.has-suggestions {
+    position: relative;
+}
+
+.suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    margin: 4px 0 0;
+    padding: 6px;
+    list-style: none;
+    background: #fff;
+    border: 1px solid #C7DEDB;
+    border-radius: 10px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.14);
+    max-height: 320px;
+    overflow-y: auto;
+}
+
+.suggestions li {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 9px 11px;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #1B2B2C;
+}
+
+.suggestions li strong {
+    font-size: 15px;
+    color: #013A40;
+}
+
+.suggestions li span {
+    font-size: 13px;
+    color: #5b6b6e;
+}
+
+.suggestions li.active,
+.suggestions li[data-code]:hover {
+    background: #E6F4F2;
+}
+
+.suggestions .suggestions-note {
+    cursor: default;
+    font-size: 12px;
+    font-weight: 700;
+    color: #8a6d00;
+    padding: 4px 11px;
+}
